@@ -1,0 +1,112 @@
+.conatiner{
+    position: absolute;
+width: 1512px;
+height: 906px;
+left: 0px;
+top: 76px;
+background: #CDCDCD;
+}
+
+.header{
+position: absolute;
+width: 1512px;
+height: 76px;
+left: 0px;
+top: 0px;
+background: #000000;
+color: white;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+font-size: 1.3rem;
+
+}
+#portal{
+position: absolute;
+width: 164px;
+height: 29px;
+left: 21px;
+top: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.search-container{
+box-sizing: border-box;
+position: absolute;
+width: 1226px;
+height: 65px;
+left: 29px;
+top: 104px;
+font-size: 20px;
+background: #D9D9D9;
+border: 1px solid #000000;
+}
+#searchbar{
+    position: absolute;
+width: 217px;
+height: 66px;
+left: 1268px;
+top: 103px;
+color: white;
+font-size: 1.3rem;
+background: #000000;
+}
+.btn-outer{
+position: absolute;
+width: 1455px;
+height: 65px;
+left: 29px;
+top: 200px;
+display: flex;
+justify-content: space-between;
+
+}
+.btn{
+    width: 217px;
+height: 66px;
+left: 83px;
+top: 216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+background-color: #000000;
+
+color: #FFFFFF;
+}
+.table-items{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1452px;
+    height: 65px;
+    left: 29px;
+    top: 291px;
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+
+
+}
+table,th,td{
+    /* background: #D9D9D9; */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+  }
+
+#products{
+    margin-top: 360px;
+}
